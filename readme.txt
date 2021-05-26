@@ -1,17 +1,17 @@
-There is a xml file with structure describing date and time of employee arrival and departure:
+There is a xml file with following structure describing date and time of employee arrival and departure:
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;people&gt;
-&lt;person full_name=&quot;i.ivanov&quot;&gt;
-&lt;start&gt;21-12-2011 10:54:47&lt;/start&gt;
-&lt;end&gt;21-12-2011 19:43:02&lt;/end&gt;
-&lt;/person&gt;
-&lt;person full_name=&quot;a.stepanova&quot;&gt;
-&lt;start&gt;21-12-2011 09:40:10&lt;/start&gt;
-&lt;end&gt;21-12-2011 17:59:15&lt;/end&gt;
-&lt;/person&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+<person full_name="i.ivanov">
+<start>21-12-2011 10:54:47</start>
+<end>21-12-2011 19:43:02</end>
+</person>
+<person full_name="a.stepanova">
+<start>21-12-2011 09:40:10</start>
+<end>21-12-2011 17:59:15</end>
+</person>
 ...
-&lt;/people&gt;
+</people>
 
 The task is to write a python program that calculates total time of employees presence for each day.
 
